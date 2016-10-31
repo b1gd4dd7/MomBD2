@@ -1,0 +1,91 @@
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 100px;
+	font-weight: lighter;
+	color: #002FFF;
+	opacity: 0.6;
+	left: 10%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-40%);
+}
+
+#text {
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: #eee;
+	background-color: #3b5998;
+	border-radius: 6px;
+	border: solid 3px #1c1c2f;
+}
+
+img {
+	display:block;
+	margin:auto;
+	border: solid 6px #1c1c2f;
+}
+
+button {
+	font-family: "Raleway", sans-serif;
+  position: relative;
+  //display:block;
+  margin: 0 35% 50px 35%;
+  height: 150px;
+  width: 30%;
+  text-align: center;
+  padding: 5px 5px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+  border: 2px #fff solid;
+  text-transform: uppercase;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.18s ease-in;
+  -o-transition:      0.18s ease-in;
+  -ms-transition:     0.18s ease-in;
+  -moz-transition:    0.18s ease-in;
+  -webkit-transition: 0.18s ease-in;
+}
+
+.fill:hover {
+  color: #000;
+  background: #fff;
+}
+
+#wrapper {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+#background {
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+	background-image: url("http://www.publicdomainpictures.net/pictures/30000/velka/birthday-candles-1338372401X5q.jpg");
+	position: fixed;
+	background-repeat: no-repeat;
+}
+
+#scroller1 {
+	margin-top: 729px;
+	background: none;
+	background-size: cover;
+	position: relative;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #000000;
